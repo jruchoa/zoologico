@@ -52,7 +52,7 @@ class HelloController
     public function caninos():Response
     {
         return new Response('Olá, caninos!');
-    }
+    
 
     #[Route('/roedores')]
     public function roedorees():Response
